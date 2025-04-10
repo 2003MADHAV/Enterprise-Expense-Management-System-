@@ -1,0 +1,95 @@
+# 💼 Enterprise Expense Management System - Frontend
+
+This is the **frontend** of our group project: **Enterprise Expense Management System**. This system helps organizations manage employee expenses, reimbursements, and approvals efficiently.
+
+---
+
+## 🚀 Project Overview
+
+The project is designed to provide a complete solution for managing, tracking, and analyzing business expenses. It includes:
+
+- 🧑‍💼 Role-based access (Employee, Manager, Admin)
+- 🧾 Expense submission and file uploads
+- ✅ Approval and reimbursement tracking
+- 📊 Real-time analytics and dashboard
+- 📂 Report generation
+
+---
+
+## 🧱 Tech Stack
+
+| Layer      | Technology             |
+|------------|------------------------|
+| Frontend   | React.js               |
+| State Mgmt | Redux (optional)       |
+| Styling    | CSS / Tailwind / MUI   |
+| Routing    | React Router           |
+| Charts     | Chart.js / Recharts    |
+| Alerts     | React Toastify         |
+| HTTP       | Axios                  |
+
+---
+
+## 📁 Folder Structure
+
+src/ ├── components/ # Reusable UI components (form, charts, cards, etc.) ├── pages/ # Different route pages (Login, Dashboard, ExpenseList) ├── services/ # Axios API calls ├── redux/ # Global state management ├── assets/ # Images, icons, and logos ├── App.js # Main app config with routes └── index.js # Entry point
+
+
+---
+
+## 🧩 Core Components
+
+### 1. Authentication & Users
+- `LoginForm`
+- `RegisterForm`
+- `UserProfile`
+- `RoleBasedAccess`
+
+### 2. Expense Management
+- `ExpenseForm`
+- `ExpenseList`
+- `ExpenseItem`
+- `FileUpload`
+- `CategoryFilter`
+
+### 3. Approval Workflow
+- `PendingApprovals`
+- `ApprovalCard`
+- `ApprovalHistory`
+
+### 4. Analytics & Reports
+- `DashboardOverview`
+- `ExpenseChart`
+- `CategoryPieChart`
+- `ReportDownload`
+
+### 5. UI Elements
+- `Navbar`, `Sidebar`, `Footer`
+- `Loader`, `ToastAlerts`, `ProtectedRoute`
+
+---
+
+## 🔐 Roles and Permissions
+
+| Role     | Permissions                                           |
+|----------|--------------------------------------------------------|
+| Employee | Submit expenses, view status                          |
+| Manager  | View team expenses, approve/reject                    |
+| Admin    | Manage users, categories, view reports, audit logs    |
+
+---
+
+## 🎯 Features to Implement
+
+- [ ] Responsive Dashboard UI
+- [ ] Expense submission form
+- [ ] Category filters and search
+- [ ] Approval interface
+- [ ] Charts and analytics
+- [ ] Toast notifications
+- [ ] PDF/Excel report export
+- [ ] Authentication and protected routes
+
+---
+
+
